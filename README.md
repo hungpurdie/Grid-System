@@ -1,4 +1,4 @@
-dầ# 1. Grid
+# 1. Grid
 
 - Grid: full-width, chiếm hết chiều ngang của đối tượng cha
 - Wide: chiều ngang tối đa là 1200px
