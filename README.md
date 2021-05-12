@@ -22,5 +22,10 @@
   2. `class = m-*`: Phù hợp cho màn hình Table (>= 740px)
   3. `class = l-*`: Phù hợp cho màn hình PC (> 1113px)
 
-- **Trong đó:** 1. `* từ 0 tới 12`. 2. 0 được sử dụng để ẩn column 3. 1 - 12 tương ứng với độ rộng chúng ta muốn sử dụng cho column (trên cơ sở 12 columns trong Grid system)
+- **Trong đó:**
+
+  1. `* từ 0 tới 12`
+  2. 0 được sử dụng để ẩn column
+  3. 1 - 12 tương ứng với độ rộng chúng ta muốn sử dụng cho column (trên cơ sở 12 columns trong Grid system)
+
   ![Example](https://raw.githubusercontent.com/nmhung2022/Grid-System/768479980c1b595e2dc4f222b2abdadabcec8692/3.%20Column/gridSystem.png)
