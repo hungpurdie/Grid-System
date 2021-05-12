@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .course-item {
+      background-color: orange;
+      height: 260px;
+    }
+
+    h1 {
+      color: #fff;
+      line-height: 260px;
+      margin: 0;
+    }
+
+    @media(max-width: 1023px) {
+      .course-item {
+        margin-top: 16px;
+      }
+    }
+
+    .category {
+      background-color: yellowgreen;
+      height: 260px;
+    }
+
+    ul {
+      margin-top: 0;
+    }
+  </style>
+
+  <div class="grid wide container">
+    <div class="row">
+      <div class="col l-3 m-0 s-0">
+        <div class="category">
+          <ul>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Nodejs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col l-9 m-12 s-12">
+        <div class="row">
+          <div class="col l-4 m-6 s-12">
+            <div class="course-item">
+              <h1>HTML</h1>
+            </div>
+          </div>
+
+          <div class="col l-4 m-6 s-12">
+            <div class="course-item">
+              <h1>CSS</h1>
+            </div>
+          </div>
+
+
+          <div class="col l-4 m-6 s-12">
+            <div class="course-item">
+              <h1>JavaCript</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
