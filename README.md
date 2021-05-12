@@ -50,7 +50,7 @@ Example
         </div>
       </div>
 ```
-_`**l-o-6**` nghĩa là trên màn hình PC hãy tạo ra một margin-left bằng độ rộng của 6 cột_
+_**`l-o-6`** nghĩa là trên màn hình PC hãy tạo ra một margin-left bằng độ rộng của 6 cột_
 
   ![Example](https://github.com/nmhung2022/Grid-System/blob/d0f26463363751771b1f71c146d751e14ae5e8c4/4.%20Offset/Exam.png)
 
