@@ -54,4 +54,4 @@ _**`l-o-6`** nghĩa là trên màn hình PC hãy tạo ra một margin-left bằ
 
   ![Example](https://github.com/nmhung2022/Grid-System/blob/d0f26463363751771b1f71c146d751e14ae5e8c4/4.%20Offset/Exam.png)
 
-
+- With the guidance of [Son Dang F8](https://fullstack.edu.vn/)
