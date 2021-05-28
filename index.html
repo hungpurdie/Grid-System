@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid System</title>
+</head>
+
+<body>
+  <div class="form-group">
+    <button type="submit" id="grid" class="submit-button" onclick="grid()">Grid</button>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="row" class="submit-button" onclick="row()">Row</button>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="column" class="submit-button" onclick="column()">Column</button>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="offset" class="submit-button" onclick="offset()">Offset</button>
+  </div>
+</body>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+  * {
+    font-family: 'Odibee Sans', cursive;
+  }
+
+  :root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-purple: #620085;
+    --color-yellow: #f3f3f3;
+    --color-red: #FF0000;
+    --color-cyan: #00ffea;
+  }
+
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .submit-button {
+    font-size: 40px;
+    width: 40%;
+    height: 100%;
+    padding: 0.75rem;
+    background-color: #F3A400;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+
+  .submit-button:hover {
+    border: 2px solid #00ffea;
+    box-shadow: 5px 10px #1b1b32;
+  }
+</style>
+<script>
+  function grid() { window.open("./1. Grid") }
+  function row() { window.open("./2. Row") }
+  function column() { window.open("./3. Column") }
+  function offset() { window.open("./4. Offset") }
+</script>
+
+</html>
